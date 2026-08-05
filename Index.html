@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مارکت‌پلیس | بهترین‌های هر حوزه</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="glass header">
+    <nav class="container nav">
+      <a href="#" class="logo">🏪 مارکت‌پلیس</a>
+      <div class="search-box">
+        <input type="search" id="searchInput" placeholder="جستجوی محصول، برند، دسته‌بندی..." />
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#categories">دسته‌بندی‌ها</a></li>
+        <li><a href="#features">امکانات</a></li>
+        <li><a href="#featured">پیشنهاد ویژه</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="تغییر تم">🌙</button>
+        <button class="btn btn-primary">ورود / ثبت‌نام</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <h1>بهترین‌های هر حوزه، <span class="gradient-text">یک‌جا</span></h1>
+    <p>از تکنولوژی و مد تا کتاب و ورزش؛ بهترین محصولات هر دسته‌بندی را با بهترین قیمت پیدا کن.</p>
+    <div class="hero-cta">
+      <a href="#featured" class="btn btn-primary btn-lg">شروع خرید</a>
+      <a href="#categories" class="btn btn-outline btn-lg">مشاهده دسته‌بندی‌ها</a>
+    </div>
+  </section>
+
+  <!-- Stats strip -->
+  <section class="stats container glass">
+    <div class="stat"><span class="stat-num">+۱۲٬۰۰۰</span><span class="stat-label">محصول</span></div>
+    <div class="stat"><span class="stat-num">+۸۰۰</span><span class="stat-label">فروشنده</span></div>
+    <div class="stat"><span class="stat-num">+۵۰٬۰۰۰</span><span class="stat-label">خرید موفق</span></div>
+    <div class="stat"><span class="stat-num">۴.۸</span><span class="stat-label">امتیاز کاربران</span></div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="container section">
+    <h2 class="section-title">دسته‌بندی‌های اصلی</h2>
+    <div class="cat-grid" id="catGrid"></div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="container section">
+    <h2 class="section-title">چرا مارکت‌پلیس؟</h2>
+    <div class="feature-grid">
+      <div class="card glass">
+        <div class="card-icon">🛡️</div>
+        <h3>ضمانت اصالت</h3>
+        <p>همه محصولات از فروشنده‌های معتبر و تأییدشده عرضه می‌شوند.</p>
+      </div>
+      <div class="card glass">
+        <div class="card-icon">🚚</div>
+        <h3>ارسال سریع</h3>
+        <p>ارسال به سراسر کشور در سریع‌ترین زمان ممکن.</p>
+      </div>
+      <div class="card glass">
+        <div class="card-icon">💳</div>
+        <h3>پرداخت امن</h3>
+        <p>درگاه پرداخت امن با پشتیبانی از کارت‌های بانکی و کیف پول.</p>
+      </div>
+      <div class="card glass">
+        <div class="card-icon">↩️</div>
+        <h3>بازگشت آسان</h3>
+        <p>۷ روز ضمانت بازگشت وجه بدون قید و شرط.</p>
+      </div>
+      <div class="card glass">
+        <div class="card-icon">🧠</div>
+        <h3>پیشنهاد هوشمند</h3>
+        <p>موتور پیشنهاددهی بر اساس سلیقه و سابقه خرید شما.</p>
+      </div>
+      <div class="card glass">
+        <div class="card-icon">🎧</div>
+        <h3>پشتیبانی ۲۴/۷</h3>
+        <p>تیم پشتیبانی همیشه در کنار شماست.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured products -->
+  <section id="featured" class="container section">
+    <h2 class="section-title">پیشنهاد ویژه</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="container">
+    <div class="newsletter glass">
+      <h3>از تخفیف‌ها جا نمون!</h3>
+      <p>عضو خبرنامه شو و از تخفیف‌های ویژه مطلع شو.</p>
+      <form id="newsForm">
+        <input type="email" placeholder="ایمیل شما" required />
+        <button type="submit" class="btn btn-primary">عضویت</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>مارکت‌پلیس</h4>
+        <p>بهترین‌های هر حوزه را یک‌جا پیدا کنید.</p>
+      </div>
+      <div>
+        <h4>دسترسی سریع</h4>
+        <ul>
+          <li><a href="#categories">دسته‌بندی‌ها</a></li>
+          <li><a href="#featured">پیشنهاد ویژه</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>خدمات مشتریان</h4>
+        <ul>
+          <li>سوالات متداول</li>
+          <li>قوانین و مقررات</li>
+          <li>حریم خصوصی</li>
+        </ul>
+      </div>
+      <div>
+        <h4>تماس با ما</h4>
+        <p>info@marketplace.ir</p>
+        <p>۰۲۱-۱۲۳۴۵۶۷۸</p>
+      </div>
+    </div>
+    <div class="copy">© ۱۴۰۵ مارکت‌پلیس — تمامی حقوق محفوظ است.</div>
+  </footer>
+
+  <a href="#" id="scrollTop" title="بازگشت به بالا">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
